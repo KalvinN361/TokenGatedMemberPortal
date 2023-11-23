@@ -1,0 +1,20 @@
+@import "../Fonts.css";
+
+/** {
+    @apply rounded-none border-none shadow-none !important;
+}*/
+body {
+    @apply h-screen bg-black overflow-hidden;
+}
+
+#root {
+    @apply h-full max-w-[1920px] m-auto;
+}
+
+.close-modal-button {
+    @apply absolute right-0 top-0 !important;
+}
+
+.App {
+    @apply bg-black h-full overflow-hidden max-w-1920 relative !important;
+}

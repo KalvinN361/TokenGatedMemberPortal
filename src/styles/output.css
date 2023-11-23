@@ -1,0 +1,47 @@
+@import "tailwindcss/base.css";
+
+@font-face {
+  font-family: 'Barlow';
+
+  src: url("Fonts/Barlow/Barlow-Black.ttf") format("truetype");
+
+  font-style: normal;
+
+  font-weight: 900;
+}
+
+/** {
+    @apply rounded-none border-none shadow-none !important;
+}*/
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+#root {
+  margin: auto;
+  height: 100%;
+  max-width: 1920px;
+}
+
+.close-modal-button {
+  position: absolute !important;
+  right: 0px !important;
+  top: 0px !important;
+}
+
+.App {
+  position: relative !important;
+  height: 100% !important;
+  max-width: 1920px !important;
+  overflow: hidden !important;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
+}
+
+@import "tailwindcss/components.css";
+
+@import "tailwindcss/utilities.css";
